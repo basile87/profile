@@ -1,0 +1,65 @@
+h1 {
+font-family: 'Roboto Condensed', sans-serif;
+text-align: center;
+font-size: 50px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #A0A6A2;
+}
+
+a:hover {
+  color: #E3170A;
+}
+
+#FB {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.card {
+  background-color: brown;
+  border-style: groove;
+  padding: 40px;
+  box-shadow: 10px 5px 5px rgb(41, 39, 39);
+  border-radius: 10px;
+  margin: 100px 100px;
+  text-align: center;
+}
+
+#button {
+    background-color:#A0A6A2;
+    color: #E3170A;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#button:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
